@@ -1,6 +1,9 @@
 Frederick Cantarine, 50
 
+
+[Live Sketch Link] https://dafredichini22.github.io/120-work/hw-10/
 # Hw-10
+
 
 For this week, I've been working on hw-8 and hw-10. I couldn't figure out how to do one last thing with hw-8 and so instead of waiting around to get help on it, I moved onto hw-10.
 For my sketch, I did something a little simple but it does fullfill the requirements that were given for hw-10. I did use at least 2 functions other than draw and setup and I did use at least 1 array. My sketch was making a pizza. Though it might be the most interesting thing to look at, it still works. I was going to try and make it do something when you hold down the mouse, but I couldn't figure it out. I was either going to make the colors of the pizza turn more brown, as if it were being cooked or make a slice disapear for each time you click it. But both of these would have taken me a lot more time to figure out and I' mrunning out of time.

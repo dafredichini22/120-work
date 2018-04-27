@@ -28,7 +28,6 @@ function draw() {
   //Lines on billboard
   for (let k = 225; k < 500; k += 50){
     line(100, k, windowWidth - 120, k);
-
   }
 
   //Top and bottom grey bars
@@ -36,11 +35,6 @@ function draw() {
     noStroke();
     fill (50, 50, 50);
     rect (90, h, windowWidth - 205, 15);
-
-    //Not needed anymore. Saved just incase.
-    //rect (90, 165, windowWidth - 205, 15);
-    //rect (90, 469, windowWidth - 205, 15);
-
   }
 
   //Side grey bars
@@ -48,15 +42,9 @@ function draw() {
     noStroke();
     fill (50, 50, 50);
     rect (f, 166, 15, 304);
-
   }
 
   //Make lights alternate colors
-
-timer++;
-
-
-while (timer < 4){
   timer++;
   if(timer % 2 == 0){
     col1 = 50;
@@ -64,64 +52,11 @@ while (timer < 4){
   else {
     col1 = 255;
   }
-}
-
-/*
-  if (timer % 2 == 0) {
-    while (timer < 100){
-        col1 = 50;
-      /*
-      if (col1 == col2){
-        col1 = 50;
-      }
-      */
-      /*
-      timer++;
-    }
-  }
-
-  else {
-    while (timer < 1000){
-      col1 = 255;
-      /*
-      if (col1 == col4){
-        col1 = 255;
-      }
-      */
-      /*
-    timer++;
-    }
-  }
-
-/*
-  else if (col1 == col4) {
-    col1 = 255;
-    //col2 += 1;
-  }
-  else {
-    col3 = 0;
-  }
-*/
-
-
 
   //Top and bottom string of lights
   for (let moveY  = 150; moveY < 700; moveY += 350) {
     for (let i = 100; i < windowWidth - 100; i += 30) {
-      /*
-      if (change) {
-
-          }
-        change = false;
-      }
-      else {
-        change = true;
-      }
-      */
-
       fill(col1, col1, 0);
-
-
       if (col1 == 255){
         col1 = 50;
       }
@@ -129,31 +64,7 @@ while (timer < 4){
         col1 = 255;
       }
 
-/*
-if (change = true){
-  if (col1 == 255){
-    col1 = 50;
-    change = false;
-  }
-  else {
-    col1 = 255;
-    change = false;
-  }
-}
-else{
-  if (col1 != 255){
-    col1 = 255;
-    change = true;
-  }
-  else {
-    col1 = 50;
-    change = true;
-  }
-}
-*/
-
       ellipse(i, moveY, bulbWidth, bulbHeight);
-
         }
       }
 
@@ -172,11 +83,7 @@ else{
       }
     }
 
-
-
-
-
-
+//Depending onw how many times the user clicks, the title and times will change
 if (option == 1) {
   textSize(40);
   fill(0);
@@ -200,46 +107,8 @@ else {
 }
 }
 
-
+//Changes title and times when the user clicks
 function mousePressed() {
   option++;
   if (option > 3) option = 1;
 }
-
-
-/*
-Scratch work:
-
-moveY += 350;
-  //Bottom string of lights
-  for (let i = 100; i < windowWidth - 100; i += 30) {
-
-      /*
-        if (change) {
-
-            }
-          change = false;
-        }
-        else {
-          change = true;
-
-        }
-        */
-        /*
-        fill(col1, col1, 0);
-        if (col1 == 255){
-          col1 = 50;
-        }
-        else {
-          col1 = 255;
-        }
-        ellipse(i, moveY, bulbWidth, bulbHeight);
-
-          }
-/*
-  moveY += 630;
-  for ( let i = 30; i < windowWidth; i +=80) {
-    fill(random(255), random(255), random(255));
-    ellipse(i, moveY, bulbWidth, bulbHeight);
-  }
-*/
