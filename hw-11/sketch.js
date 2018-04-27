@@ -36,9 +36,6 @@ class Bomb {
     this.loc_y = 0;
     this.move_y = random(5, 15);
     this.body_color = color(0,0,0);
-    this.explosion_color = color(255, 255, 0);
-    this.wick_color = color('rgb(80, 80, 80)');
-    this.wick_pos1 = this.size_r + 20;
     this.falling = true;
     this.explosionTimer = 10;
     }
@@ -49,23 +46,22 @@ class Bomb {
     this.move();
   }
 
+//Displays the bombs
   display(){
     push();
     translate(this.loc_x, this.loc_y);
     noStroke();
     fill(this.body_color);
     ellipse(0, 0, this.size_r);
-
-
-
     pop();
   }
 
+//Makes the bombs fall
   move(){
     if(this.loc_y >= 0){
       this.loc_y += this.move_y;
     }
-
+//Makes the bombs stop at the bottom
     if(this.loc_y >= height){
       this.falling = false;
       // this.loc_y = 0;
@@ -73,10 +69,11 @@ class Bomb {
     }
   }
 
+//Makes the bombs explode
   explode(){
     if (!this.falling && this.explosionTimer > 0) {
       this.explosionTimer--;
-      this.size_r += 100;
+      this.size_r += 50;
       this.body_color = 'white';
     }
 
