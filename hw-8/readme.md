@@ -1,4 +1,5 @@
 Frederick Cantarine, 50
+[Live Sketch Link] https://dafredichini22.github.io/120-work/hw-8/
 
 # Hw-8
 
@@ -8,4 +9,4 @@ This assignment is going to be out of order. I just turned in hw-10 the other da
 
 I did continue to use the github issues forum for help the the alternating color in my code but unfortunetly I couldn't fixed the problem with the suggestions I was given. Luckily Michael figured it out.
 
-I also started hw-11 this week. I've made a lot of progress in it. Michael's office hrs also helped with it. Probably going to tweek some of the code he suggested but all in all, lots of progress made this week. 
+I also started hw-11 this week. I've made a lot of progress in it. Michael's office hrs also helped with it. Probably going to tweek some of the code he suggested but all in all, lots of progress made this week.
