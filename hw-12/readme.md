@@ -1,5 +1,7 @@
 Frederick Cantarine, 50
 
+[Live Sketch link] https://dafredichini22.github.io/120-work/hw-12/
+
 # Hw-12
 
 This week I started and finished hw-12 and have made a lot of progress on my final project. For hw-12 I made a similar sketch to my hw-11. Hw-11 was a sketch where bombs dropped from the sky and exploded when they hit the ground and then reset at the top. This week for hw-12 I had watermelons fall from the sky and when they hit the ground they would explode red. But I also had two trampolines moving back and forth across the screen and so if the watermelons touched the trampolines they would bounce upward and then fall again.
